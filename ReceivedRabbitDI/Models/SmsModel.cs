@@ -3,12 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ReceivedRabbitDI
+namespace ReceivedRabbitDI.Models
 {
-    public class EmailEntity
+    public class SmsModel
     {
-        public string Subject { get; set; }
-        public string To { get; set; }
         public string Message { get; set; }
+        public string To { get; set; }
     }
 }

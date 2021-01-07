@@ -110,33 +110,6 @@
           "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging.Configuration/3.1.4": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Logging": "3.1.4",
-          "Microsoft.Extensions.Options.ConfigurationExtensions": "3.1.4"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Logging.Configuration.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Logging.Configuration.dll": {}
-        }
-      },
-      "Microsoft.Extensions.Logging.Console/3.1.4": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "3.1.4",
-          "Microsoft.Extensions.Logging": "3.1.4",
-          "Microsoft.Extensions.Logging.Configuration": "3.1.4"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Logging.Console.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Logging.Console.dll": {}
-        }
-      },
       "Microsoft.Extensions.Options/3.1.4": {
         "type": "package",
         "dependencies": {
@@ -148,21 +121,6 @@
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll": {}
-        }
-      },
-      "Microsoft.Extensions.Options.ConfigurationExtensions/3.1.4": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "3.1.4",
-          "Microsoft.Extensions.Configuration.Binder": "3.1.4",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.4",
-          "Microsoft.Extensions.Options": "3.1.4"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {}
         }
       },
       "Microsoft.Extensions.Primitives/3.1.4": {
@@ -196,13 +154,12 @@
           "lib/netstandard2.0/RabbitMQ.Client.dll": {}
         }
       },
-      "RabbitMQ.Client.Core.DependencyInjection/4.3.0": {
+      "RabbitMQ.Client.Core.DependencyInjection/4.3.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "3.1.4",
           "Microsoft.Extensions.Hosting.Abstractions": "3.1.4",
           "Microsoft.Extensions.Logging": "3.1.4",
-          "Microsoft.Extensions.Logging.Console": "3.1.4",
           "Newtonsoft.Json": "12.0.3",
           "RabbitMQ.Client": "6.0.0"
         },
@@ -378,38 +335,6 @@
         "microsoft.extensions.logging.abstractions.nuspec"
       ]
     },
-    "Microsoft.Extensions.Logging.Configuration/3.1.4": {
-      "sha512": "FwFVjkeYkiXtBBH6xJDsxhO6hDCxJ0I6c2qDUHBRiDUIrn6N7eXvdwQNQ+cL7XO7n6Xi3pkT+z3EQRvglIkEuQ==",
-      "type": "package",
-      "path": "microsoft.extensions.logging.configuration/3.1.4",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Logging.Configuration.dll",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Logging.Configuration.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.Logging.Configuration.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.Logging.Configuration.xml",
-        "microsoft.extensions.logging.configuration.3.1.4.nupkg.sha512",
-        "microsoft.extensions.logging.configuration.nuspec"
-      ]
-    },
-    "Microsoft.Extensions.Logging.Console/3.1.4": {
-      "sha512": "Solz/9q7CaEJBGUVWCzxrJ4VW4Hff202s4spSbTizEn4BoL94WfeXliK8k8+PTJuqj0U5tsoTJFv4tql/7nz9Q==",
-      "type": "package",
-      "path": "microsoft.extensions.logging.console/3.1.4",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Logging.Console.dll",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Logging.Console.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.Logging.Console.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.Logging.Console.xml",
-        "microsoft.extensions.logging.console.3.1.4.nupkg.sha512",
-        "microsoft.extensions.logging.console.nuspec"
-      ]
-    },
     "Microsoft.Extensions.Options/3.1.4": {
       "sha512": "ntWmD8i6UmAo0nn5MiCXIVl3+75aybVHgP/NxL9B16zwsbGkSfs+66BullsGEDNvrimgIFVDO+iB/h0yWfATWg==",
       "type": "package",
@@ -424,22 +349,6 @@
         "lib/netstandard2.0/Microsoft.Extensions.Options.xml",
         "microsoft.extensions.options.3.1.4.nupkg.sha512",
         "microsoft.extensions.options.nuspec"
-      ]
-    },
-    "Microsoft.Extensions.Options.ConfigurationExtensions/3.1.4": {
-      "sha512": "tTXDVrLUv+cqCu7piSoVWk4BNcDAPGCIsoir19VEjMzefpBPS/HlXtR26RctHDsdo2qdAeyPNSEqtNc2g/7/qg==",
-      "type": "package",
-      "path": "microsoft.extensions.options.configurationextensions/3.1.4",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
-        "microsoft.extensions.options.configurationextensions.3.1.4.nupkg.sha512",
-        "microsoft.extensions.options.configurationextensions.nuspec"
       ]
     },
     "Microsoft.Extensions.Primitives/3.1.4": {
@@ -508,17 +417,16 @@
         "rabbitmq.client.nuspec"
       ]
     },
-    "RabbitMQ.Client.Core.DependencyInjection/4.3.0": {
-      "sha512": "GUXN/oDECtUmubZVh0IQ407aW2W5eBRR9cTHT6+vucHI9DYsO76aBlmI2ltFO0KBJUV6Yk5GBu/x/OMrpePfxw==",
+    "RabbitMQ.Client.Core.DependencyInjection/4.3.1": {
+      "sha512": "8ehu3CdOCc+lKy5t7OseUnX/LbPWFwMRwvNid1rA9Ii+EcJikgWrSazcZW0MjstcRu19Ki8FoPKfbH1UZAOE3Q==",
       "type": "package",
-      "path": "rabbitmq.client.core.dependencyinjection/4.3.0",
+      "path": "rabbitmq.client.core.dependencyinjection/4.3.1",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "LICENSE.txt",
         "icon.png",
         "lib/netstandard2.1/RabbitMQ.Client.Core.DependencyInjection.dll",
-        "rabbitmq.client.core.dependencyinjection.4.3.0.nupkg.sha512",
+        "rabbitmq.client.core.dependencyinjection.4.3.1.nupkg.sha512",
         "rabbitmq.client.core.dependencyinjection.nuspec"
       ]
     },
@@ -573,7 +481,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "RabbitMQ.Client >= 6.2.1",
-      "RabbitMQ.Client.Core.DependencyInjection >= 4.3.0"
+      "RabbitMQ.Client.Core.DependencyInjection >= 4.3.1"
     ]
   },
   "packageFolders": {
@@ -583,11 +491,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\thoma\\Dev\\ApiRabbitEmail\\ApiRabbitEmail.csproj",
+      "projectUniqueName": "C:\\Users\\thoma\\Dev\\DIRabbit\\ApiRabbitEmail\\ApiRabbitEmail.csproj",
       "projectName": "ApiRabbitEmail",
-      "projectPath": "C:\\Users\\thoma\\Dev\\ApiRabbitEmail\\ApiRabbitEmail.csproj",
+      "projectPath": "C:\\Users\\thoma\\Dev\\DIRabbit\\ApiRabbitEmail\\ApiRabbitEmail.csproj",
       "packagesPath": "C:\\Users\\thoma\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\thoma\\Dev\\ApiRabbitEmail\\obj\\",
+      "outputPath": "C:\\Users\\thoma\\Dev\\DIRabbit\\ApiRabbitEmail\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -627,7 +535,7 @@
           },
           "RabbitMQ.Client.Core.DependencyInjection": {
             "target": "Package",
-            "version": "[4.3.0, )"
+            "version": "[4.3.1, )"
           }
         },
         "imports": [
@@ -648,7 +556,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

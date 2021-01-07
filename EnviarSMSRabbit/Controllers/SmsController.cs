@@ -1,10 +1,7 @@
 ﻿using EnviarSMSRabbit.Model;
+using EnviarSMSRabbit.Services;
 using Microsoft.AspNetCore.Mvc;
-using RabbitMQ.Client.Core.DependencyInjection.Services;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace EnviarSMSRabbit.Controllers
@@ -13,31 +10,23 @@ namespace EnviarSMSRabbit.Controllers
     [ApiController]
     public class SmsController : ControllerBase
     {
-        readonly IQueueService _queueService;
-        public SmsController(IQueueService queueService)
+        readonly ISendSmsService _smsService;
+        public SmsController(ISendSmsService smsService)
         {
-            _queueService = queueService;
+            _smsService = smsService;
         }
 
         public async Task<IActionResult> InsertSms(SmsModel model)
         {
-            var message = new SmsModel
+            try
             {
-                Message = model.Message,
-                To = model.To
-            };
-
-            var mensagem = System.Text.Json.JsonSerializer.Serialize(message);
-            Encoding.UTF8.GetBytes(mensagem);
-
-            await _queueService.SendJsonAsync(
-                mensagem,
-                exchangeName: "sms",
-                routingKey: "sms");
-
-            Console.WriteLine(" [x] Sent {0}", mensagem);
-
-            return Accepted(message);
+                var result = await this._smsService.SendSms(model);
+                return Ok(new { message = "Email enviado com sucesso" });
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
         }
     }
 }

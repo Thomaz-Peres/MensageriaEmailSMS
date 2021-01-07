@@ -1,17 +1,15 @@
 ﻿using RabbitMQ.Client.Core.DependencyInjection;
 using RabbitMQ.Client.Core.DependencyInjection.MessageHandlers;
 using RabbitMQ.Client.Events;
+using ReceivedRabbitDI.Models;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text.Json;
-using System.Threading.Tasks;
 
-namespace ReceivedRabbitDI
+namespace ReceivedRabbitDI.Handlers
 {
-    public class MessageHanlderSms : IMessageHandler
+    public class MessageHandlerEmail : IMessageHandler
     {
-        public MessageHanlderSms()
+        public MessageHandlerEmail()
         {
         }
 
@@ -19,14 +17,15 @@ namespace ReceivedRabbitDI
         {
             var payload = eventArgs.GetMessage();
             //var message = Encoding.UTF8.GetBytes(payload);
-            var email = JsonSerializer.Deserialize<SmsModel>(payload);
+            var email = JsonSerializer.Deserialize<EmailModel>(payload);
 
-            var mensagem = new EmailEntity
+            var mensagem = new EmailModel
             {
+                Subject = email.Subject,
                 To = email.To,
                 Message = email.Message
             };
-            Console.WriteLine($"Mensagem {mensagem.Message}, To {mensagem.To}");
+            Console.WriteLine($"Mensagem {mensagem.Message}, To {mensagem.To}, Subject {mensagem.Subject}");
         }
     }
 }

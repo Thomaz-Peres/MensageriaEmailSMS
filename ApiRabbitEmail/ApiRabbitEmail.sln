@@ -7,7 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiRabbitEmail", "ApiRabbit
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReceivedRabbitDI", "..\ReceivedRabbitDI\ReceivedRabbitDI.csproj", "{3B97D6EE-DC5C-4C4F-A26C-D5A754335D53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnviarSMSRabbit", "..\EnviarSMSRabbit\EnviarSMSRabbit.csproj", "{EE13BBAF-C953-40C8-87B7-7F9D95E44299}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnviarSMSRabbit", "..\EnviarSMSRabbit\EnviarSMSRabbit.csproj", "{EE13BBAF-C953-40C8-87B7-7F9D95E44299}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applications", "Applications", "{ECC84E81-9FC6-4D15-88C4-A8F2A59580B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A6D4719B-D545-4B45-A39D-04FF12AF6198}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +34,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ED9403CA-D359-48D5-A79B-02EC553E15AC} = {ECC84E81-9FC6-4D15-88C4-A8F2A59580B4}
+		{3B97D6EE-DC5C-4C4F-A26C-D5A754335D53} = {ECC84E81-9FC6-4D15-88C4-A8F2A59580B4}
+		{EE13BBAF-C953-40C8-87B7-7F9D95E44299} = {ECC84E81-9FC6-4D15-88C4-A8F2A59580B4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {85423025-E018-4EFB-A9CE-F0F71CC63FAF}

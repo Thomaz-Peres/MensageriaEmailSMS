@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thoma\\Dev\\EnviarSMSRabbit\\EnviarSMSRabbit.csproj": {}
+    "C:\\Users\\thoma\\Dev\\DIRabbit\\EnviarSMSRabbit\\EnviarSMSRabbit.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thoma\\Dev\\EnviarSMSRabbit\\EnviarSMSRabbit.csproj": {
+    "C:\\Users\\thoma\\Dev\\DIRabbit\\EnviarSMSRabbit\\EnviarSMSRabbit.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thoma\\Dev\\EnviarSMSRabbit\\EnviarSMSRabbit.csproj",
+        "projectUniqueName": "C:\\Users\\thoma\\Dev\\DIRabbit\\EnviarSMSRabbit\\EnviarSMSRabbit.csproj",
         "projectName": "EnviarSMSRabbit",
-        "projectPath": "C:\\Users\\thoma\\Dev\\EnviarSMSRabbit\\EnviarSMSRabbit.csproj",
+        "projectPath": "C:\\Users\\thoma\\Dev\\DIRabbit\\EnviarSMSRabbit\\EnviarSMSRabbit.csproj",
         "packagesPath": "C:\\Users\\thoma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thoma\\Dev\\EnviarSMSRabbit\\obj\\",
+        "outputPath": "C:\\Users\\thoma\\Dev\\DIRabbit\\EnviarSMSRabbit\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -47,14 +47,14 @@
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[5.0.0, )",
+              "version": "[5.0.1, )",
               "noWarn": [
                 "NU1605"
               ]
             },
             "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
               "target": "Package",
-              "version": "[5.0.0, )",
+              "version": "[5.0.1, )",
               "noWarn": [
                 "NU1605"
               ]
@@ -65,7 +65,7 @@
             },
             "RabbitMQ.Client.Core.DependencyInjection": {
               "target": "Package",
-              "version": "[4.3.0, )"
+              "version": "[4.3.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -90,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

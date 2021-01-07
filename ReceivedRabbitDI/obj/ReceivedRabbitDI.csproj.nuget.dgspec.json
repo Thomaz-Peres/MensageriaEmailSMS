@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thoma\\Dev\\ReceivedRabbitDI\\ReceivedRabbitDI.csproj": {}
+    "C:\\Users\\thoma\\Dev\\DIRabbit\\ReceivedRabbitDI\\ReceivedRabbitDI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thoma\\Dev\\ReceivedRabbitDI\\ReceivedRabbitDI.csproj": {
+    "C:\\Users\\thoma\\Dev\\DIRabbit\\ReceivedRabbitDI\\ReceivedRabbitDI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thoma\\Dev\\ReceivedRabbitDI\\ReceivedRabbitDI.csproj",
+        "projectUniqueName": "C:\\Users\\thoma\\Dev\\DIRabbit\\ReceivedRabbitDI\\ReceivedRabbitDI.csproj",
         "projectName": "ReceivedRabbitDI",
-        "projectPath": "C:\\Users\\thoma\\Dev\\ReceivedRabbitDI\\ReceivedRabbitDI.csproj",
+        "projectPath": "C:\\Users\\thoma\\Dev\\DIRabbit\\ReceivedRabbitDI\\ReceivedRabbitDI.csproj",
         "packagesPath": "C:\\Users\\thoma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thoma\\Dev\\ReceivedRabbitDI\\obj\\",
+        "outputPath": "C:\\Users\\thoma\\Dev\\DIRabbit\\ReceivedRabbitDI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -90,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

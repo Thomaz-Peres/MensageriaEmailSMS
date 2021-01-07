@@ -2,8 +2,9 @@
 using System.Text;
 using System.Threading.Tasks;
 using ApiRabbitEmail.Model;
+using ApiRabbitEmail.Services;
+using Autobem.BemMais.Core;
 using Microsoft.AspNetCore.Mvc;
-using RabbitMQ.Client;
 using RabbitMQ.Client.Core.DependencyInjection.Services;
 
 namespace ApiRabbitEmail.Controllers
@@ -12,60 +13,29 @@ namespace ApiRabbitEmail.Controllers
     [ApiController]
     public class EmailController : ControllerBase
     {
-        readonly IQueueService _queueService;
-        public EmailController(IQueueService queueService)
+        private readonly ISendEmailService _sendEmailService;
+        //readonly IQueueService _queueService;
+        //readonly ISystemUser _systemUser;
+
+        public EmailController(ISendEmailService sendEmailService)
         {
-            _queueService = queueService;
+            _sendEmailService = sendEmailService;
+            //_queueService = queueService;
+            //_systemUser = systemUser;
         }
 
+        [Permission(PermissionValidationType.RequireAuthenticatedOnly)]
         public async Task<IActionResult> InsertEmail(EmailModel model)
         {
-            var message = new EmailModel
+            try
             {
-                Message = model.Message,
-                Subject = model.Subject,
-                To = model.To
-            };
-
-            var mensagem = System.Text.Json.JsonSerializer.Serialize(message);
-            Encoding.UTF8.GetBytes(mensagem);
-
-            await _queueService.SendJsonAsync(
-                mensagem,
-                exchangeName: "email",
-                routingKey: "email");
-
-            Console.WriteLine(" [x] Sent {0}", mensagem);
-
-            return Accepted(message);
-            
-            //try
-            //{
-            //    var factory = new ConnectionFactory() { HostName = "localhost" };
-            //    using (var connection = factory.CreateConnection())
-            //    using (var channel = connection.CreateModel())
-            //    {
-            //        channel.QueueDeclare(queue: "email",
-            //                             durable: false,
-            //                             exclusive: false,
-            //                             autoDelete: false,
-            //                             arguments: null);
-            //
-            //        string message = System.Text.Json.JsonSerializer.Serialize(model);
-            //        var body = Encoding.UTF8.GetBytes(message);
-            //
-            //        channel.BasicPublish(exchange: "",
-            //                             routingKey: "email",
-            //                             basicProperties: null,
-            //                             body: body);
-            //        Console.WriteLine(" [x] Sent {0}", message);
-            //    }
-            //    return Accepted(model);
-            //}
-            //catch (Exception ex)
-            //{
-            //    throw ex;
-            //}
+                var result = await this._sendEmailService.SendEmail(model);
+                return Ok(new { message = "Email enviado com sucesso" });
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
         }
     }
 }

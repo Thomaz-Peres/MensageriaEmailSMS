@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thoma\\Dev\\ApiRabbitEmail\\ApiRabbitEmail.csproj": {}
+    "C:\\Users\\thoma\\Dev\\DIRabbit\\ApiRabbitEmail\\ApiRabbitEmail.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thoma\\Dev\\ApiRabbitEmail\\ApiRabbitEmail.csproj": {
+    "C:\\Users\\thoma\\Dev\\DIRabbit\\ApiRabbitEmail\\ApiRabbitEmail.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thoma\\Dev\\ApiRabbitEmail\\ApiRabbitEmail.csproj",
+        "projectUniqueName": "C:\\Users\\thoma\\Dev\\DIRabbit\\ApiRabbitEmail\\ApiRabbitEmail.csproj",
         "projectName": "ApiRabbitEmail",
-        "projectPath": "C:\\Users\\thoma\\Dev\\ApiRabbitEmail\\ApiRabbitEmail.csproj",
+        "projectPath": "C:\\Users\\thoma\\Dev\\DIRabbit\\ApiRabbitEmail\\ApiRabbitEmail.csproj",
         "packagesPath": "C:\\Users\\thoma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thoma\\Dev\\ApiRabbitEmail\\obj\\",
+        "outputPath": "C:\\Users\\thoma\\Dev\\DIRabbit\\ApiRabbitEmail\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -51,7 +51,7 @@
             },
             "RabbitMQ.Client.Core.DependencyInjection": {
               "target": "Package",
-              "version": "[4.3.0, )"
+              "version": "[4.3.1, )"
             }
           },
           "imports": [
@@ -72,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

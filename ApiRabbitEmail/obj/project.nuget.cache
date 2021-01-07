@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D8gFc9xqfJYp+hsLayfXYGRvEJ/tpTE4O5r2sF04WHntM0ZqGg7MyKL/Hv+lwGw5f1v2LesOP5Ln40qh64uNGQ==",
+  "dgSpecHash": "VA1Kz0lSN/2bCNpjdPdyVH9v9DYxBbh8a739WSL460UG1JSpiBnIyGrSn6mrge2PoDKgKVy0Wd6t7InWLkLK/w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\thoma\\Dev\\ApiRabbitEmail\\ApiRabbitEmail.csproj",
+  "projectFilePath": "C:\\Users\\thoma\\Dev\\DIRabbit\\ApiRabbitEmail\\ApiRabbitEmail.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\thoma\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.4\\microsoft.extensions.configuration.3.1.4.nupkg.sha512",
     "C:\\Users\\thoma\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.4\\microsoft.extensions.configuration.abstractions.3.1.4.nupkg.sha512",
@@ -13,14 +13,11 @@
     "C:\\Users\\thoma\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\3.1.4\\microsoft.extensions.hosting.abstractions.3.1.4.nupkg.sha512",
     "C:\\Users\\thoma\\.nuget\\packages\\microsoft.extensions.logging\\3.1.4\\microsoft.extensions.logging.3.1.4.nupkg.sha512",
     "C:\\Users\\thoma\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.4\\microsoft.extensions.logging.abstractions.3.1.4.nupkg.sha512",
-    "C:\\Users\\thoma\\.nuget\\packages\\microsoft.extensions.logging.configuration\\3.1.4\\microsoft.extensions.logging.configuration.3.1.4.nupkg.sha512",
-    "C:\\Users\\thoma\\.nuget\\packages\\microsoft.extensions.logging.console\\3.1.4\\microsoft.extensions.logging.console.3.1.4.nupkg.sha512",
     "C:\\Users\\thoma\\.nuget\\packages\\microsoft.extensions.options\\3.1.4\\microsoft.extensions.options.3.1.4.nupkg.sha512",
-    "C:\\Users\\thoma\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\3.1.4\\microsoft.extensions.options.configurationextensions.3.1.4.nupkg.sha512",
     "C:\\Users\\thoma\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.4\\microsoft.extensions.primitives.3.1.4.nupkg.sha512",
     "C:\\Users\\thoma\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\thoma\\.nuget\\packages\\rabbitmq.client\\6.2.1\\rabbitmq.client.6.2.1.nupkg.sha512",
-    "C:\\Users\\thoma\\.nuget\\packages\\rabbitmq.client.core.dependencyinjection\\4.3.0\\rabbitmq.client.core.dependencyinjection.4.3.0.nupkg.sha512",
+    "C:\\Users\\thoma\\.nuget\\packages\\rabbitmq.client.core.dependencyinjection\\4.3.1\\rabbitmq.client.core.dependencyinjection.4.3.1.nupkg.sha512",
     "C:\\Users\\thoma\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\thoma\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
   ],
