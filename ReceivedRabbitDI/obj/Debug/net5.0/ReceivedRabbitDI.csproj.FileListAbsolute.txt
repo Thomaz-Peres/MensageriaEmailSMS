@@ -38,3 +38,13 @@ C:\Users\thoma\Dev\ReceivedRabbitDI\obj\Debug\net5.0\ReceivedRabbitDI.dll
 C:\Users\thoma\Dev\ReceivedRabbitDI\obj\Debug\net5.0\ref\ReceivedRabbitDI.dll
 C:\Users\thoma\Dev\ReceivedRabbitDI\obj\Debug\net5.0\ReceivedRabbitDI.pdb
 C:\Users\thoma\Dev\ReceivedRabbitDI\obj\Debug\net5.0\ReceivedRabbitDI.genruntimeconfig.cache
+C:\Users\thoma\Dev\DIRabbit\ReceivedRabbitDI\obj\Debug\net5.0\ReceivedRabbitDI.csprojAssemblyReference.cache
+C:\Users\thoma\Dev\DIRabbit\ReceivedRabbitDI\obj\Debug\net5.0\ReceivedRabbitDI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thoma\Dev\DIRabbit\ReceivedRabbitDI\obj\Debug\net5.0\ReceivedRabbitDI.AssemblyInfoInputs.cache
+C:\Users\thoma\Dev\DIRabbit\ReceivedRabbitDI\obj\Debug\net5.0\ReceivedRabbitDI.AssemblyInfo.cs
+C:\Users\thoma\Dev\DIRabbit\ReceivedRabbitDI\obj\Debug\net5.0\ReceivedRabbitDI.csproj.CoreCompileInputs.cache
+C:\Users\thoma\Dev\DIRabbit\ReceivedRabbitDI\obj\Debug\net5.0\ReceivedRabbitDI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\thoma\Dev\DIRabbit\ReceivedRabbitDI\obj\Debug\net5.0\ReceivedRabbitDI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\thoma\Dev\DIRabbit\ReceivedRabbitDI\obj\Debug\net5.0\ReceivedRabbitDI.dll
+C:\Users\thoma\Dev\DIRabbit\ReceivedRabbitDI\obj\Debug\net5.0\ref\ReceivedRabbitDI.dll
+C:\Users\thoma\Dev\DIRabbit\ReceivedRabbitDI\obj\Debug\net5.0\ReceivedRabbitDI.pdb

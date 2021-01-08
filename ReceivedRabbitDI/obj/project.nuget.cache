@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "f5i08PtOnHLURySZOGpb+gHDmWFJQ24iP2jpjUfBgkeQMqL8QtAzCrL9s2h7bgjmKKmK/n21VikQiQQEJhsrpg==",
+  "dgSpecHash": "t76HEfkOXK6SK/65jdkXpzSAfdb4Lf5BdNipmVMWrRnUJjIoI53E5Q0TdEtPmyf1qHCUVUplbbAL4uQhKmFZ2A==",
   "success": true,
   "projectFilePath": "C:\\Users\\thoma\\Dev\\DIRabbit\\ReceivedRabbitDI\\ReceivedRabbitDI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\thoma\\.nuget\\packages\\comtele.sdk\\1.1.6\\comtele.sdk.1.1.6.nupkg.sha512",
     "C:\\Users\\thoma\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.0\\microsoft.aspnetcore.authentication.jwtbearer.5.0.0.nupkg.sha512",
     "C:\\Users\\thoma\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\5.0.0\\microsoft.aspnetcore.authentication.openidconnect.5.0.0.nupkg.sha512",
     "C:\\Users\\thoma\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
@@ -31,6 +32,7 @@
     "C:\\Users\\thoma\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\thoma\\.nuget\\packages\\rabbitmq.client\\6.2.1\\rabbitmq.client.6.2.1.nupkg.sha512",
     "C:\\Users\\thoma\\.nuget\\packages\\rabbitmq.client.core.dependencyinjection\\4.3.0\\rabbitmq.client.core.dependencyinjection.4.3.0.nupkg.sha512",
+    "C:\\Users\\thoma\\.nuget\\packages\\restsharp\\106.5.4\\restsharp.106.5.4.nupkg.sha512",
     "C:\\Users\\thoma\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\thoma\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
     "C:\\Users\\thoma\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",

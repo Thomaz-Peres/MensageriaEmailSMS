@@ -1,6 +1,4 @@
 using ApiRabbitEmail.Services;
-using Autobem.BemMais.Core;
-using Autobem.BemMais.Core.Administrative.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;

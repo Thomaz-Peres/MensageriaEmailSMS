@@ -23,7 +23,7 @@ namespace EnviarSMSRabbit.Controllers
                 var result = await this._smsService.SendSms(model);
                 return Ok(new { message = "Email enviado com sucesso" });
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 throw;
             }
